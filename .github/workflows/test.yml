@@ -1,8 +1,9 @@
 ---
-on:
-  pull_request:
-    branches: [ master ]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches: [ master ]
+# 
 jobs:
   test-formula:
     runs-on: 	macos-latest
